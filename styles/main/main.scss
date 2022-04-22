@@ -1,0 +1,262 @@
+/*
+ * GLOBAL ELEMENTS:
+ * This can be use to the whole website
+ *
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.section {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+// 
+// COLORS
+// 
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-yellow: #FCB72B;
+$color-darkNavy: #495567;
+$color-dimGray: #939CAA;
+$color-lightGray: #E5ECF4;
+$color-snow: #F2F5F9;
+$color-lightYellow: #FFF4DF;
+
+
+
+
+
+
+
+
+
+// 
+// TYPOGRAPHY
+// 
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: $color-darkNavy;
+}
+
+h2 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: $color-darkNavy;
+}
+
+h3 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.78571px;
+    color: #495567;
+}
+
+h4 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: $color-darkNavy;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: $color-darkNavy;
+}
+
+a {
+    color: $color-darkNavy;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-family: 'Space Mono';
+}
+
+ul, li {
+    padding: 0;
+}
+
+.button {
+    background-color: $color-yellow;
+    border: 3px solid $color-white;
+    padding: 14px 70px;
+    cursor: pointer;
+
+    a {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: $color-white;
+    }
+}
+
+.button:hover {
+    background-color: $color-white;
+    border: 3px solid $color-yellow;
+    transition: .5s;
+    
+    a {
+        color: $color-yellow;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * HEADER:
+ * This can be use to the whole website
+ *
+ */
+ .header {
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-links__wrapper {
+            display: flex;
+            gap: 59px;
+            align-items: center;
+
+            .header__links {
+                display: flex;
+                align-items: center;
+                gap: 32px;
+
+                li a {
+                    font-family: 'Space Mono';
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: $color-dimGray;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*
+ * FOOTER:
+ * This can be use to the whole website
+ *
+ */
+ .footer {
+
+    .footer__container {
+        background-color: $color-darkNavy;
+        padding: 102px 0;
+        position: relative;
+
+        .footer-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1110px;
+            margin: 0 auto;
+
+            h2 {
+                max-width: 415px;
+                color: $color-white;
+                font-family: 'Space Mono';
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                letter-spacing: -2.14286px;
+            }
+
+            .footer-cta {
+                display: flex;
+                align-items: center;
+                gap: 18px;
+            }
+
+            .circle {
+                position: absolute;
+                bottom: 0;
+                right: -150px;
+            }
+        }
+    }
+
+    .footer-socials__container {
+        background-color: #333A44;
+        padding: 35px 0;
+
+        .footer-links {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1110px;
+            margin: 0 auto;
+
+            .footer-links__wrapper {
+                display: flex;
+                align-items: center;
+                gap: 59px;
+
+                .footer-links__item {
+                    display: flex;
+                    align-items: center;
+                    gap: 32px;
+
+                    a {
+                        color: $color-dimGray;
+                    }
+                }
+            }
+
+            .footer-socials {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+            }
+        }
+    }
+
+
+}
