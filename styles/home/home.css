@@ -1,1 +1,44 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+.herobanner {
+  background-image: url("../../assets/images/home-hero-desktop.jpg");
+  background-size: cover;
+}
+
+.herobanner .herobanner__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 155px 0;
+}
+
+.herobanner .herobanner__container .herobanner__heading {
+  /* * * */
+  max-width: 500px;
+}
+
+.herobanner .herobanner__container .herobanner__description {
+  /* * * */
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.herobanner .herobanner__container .herobanner__description p {
+  color: #ffff;
+}
+
+.herobanner .herobanner__container .button {
+  /* * * */
+}
+
+.herobanner .herobanner__container .header-btn {
+  /* * * */
+  border: 3px solid #FCB72B;
+}
+
+.herobanner .herobanner__container .header-btn:hover {
+  border: 3px solid #FCB72B;
+}
+
+/*
+ * MEDIA QUERIES
+ */
+/*# sourceMappingURL=home.css.map */

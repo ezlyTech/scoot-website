@@ -56,6 +56,10 @@ h1 {
     color: $color-darkNavy;
 }
 
+h1.white {
+    color: $color-white;
+}
+
 h2 {
     font-family: 'Space Mono';
     font-weight: 700;
@@ -172,6 +176,10 @@ ul, li {
                     color: $color-dimGray;
                 }
             }
+
+            .header__icon {
+                display: none;
+            }
         }
     }
 }
@@ -260,3 +268,37 @@ ul, li {
 
 
 }
+
+
+
+
+/*
+ * MEDIA QUERIES
+ */
+@media only screen and (max-width: 428px) {
+    .header {
+
+        .header__container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .header__links {
+            background-color: #333A44;
+            position: absolute;
+            left: 0;
+            top: 15%;
+            flex-direction: column;
+            width: 256px;
+            padding-left: 32px;
+            flex-direction: column;
+            text-align: left;
+            align-items: left;
+    
+            .header-links__items a {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
