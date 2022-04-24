@@ -23,6 +23,10 @@ h1 {
   color: #495567;
 }
 
+h1.white {
+  color: #FFFFFF;
+}
+
 h2 {
   font-family: 'Space Mono';
   font-weight: 700;
@@ -144,6 +148,10 @@ ul, li {
   color: #939CAA;
 }
 
+.header .header__container .header-links__wrapper .header__icon {
+  display: none;
+}
+
 /*
  * FOOTER:
  * This can be use to the whole website
@@ -246,5 +254,40 @@ ul, li {
       -ms-flex-align: center;
           align-items: center;
   gap: 24px;
+}
+
+/*
+ * MEDIA QUERIES
+ */
+@media only screen and (max-width: 428px) {
+  .header .header__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .header__links {
+    background-color: #333A44;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 256px;
+    padding-left: 32px;
+    flex-direction: column;
+    text-align: left;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+  .header .header__links .header-links__items a {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
