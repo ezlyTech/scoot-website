@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .section {
   max-width: 1110px;
   margin: 0 auto;
@@ -157,6 +161,10 @@ ul, li {
  * This can be use to the whole website
  *
  */
+.footer {
+  margin-top: 120px;
+}
+
 .footer .footer__container {
   background-color: #495567;
   padding: 102px 0;
