@@ -316,6 +316,7 @@ ul, li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    z-index: 1;
   }
   .header .header__container .header-links__wrapper .header__icon {
     display: block;
@@ -330,6 +331,7 @@ ul, li {
   }
   .header .header__container .header__cta.responsive {
     display: block;
+    z-index: 2;
   }
 }
 

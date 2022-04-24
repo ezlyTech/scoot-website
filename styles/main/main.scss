@@ -321,6 +321,7 @@ ul, li {
 
                     &.responsive {
                         display: flex;
+                        z-index: 1;
                     }
 
                     
@@ -341,6 +342,7 @@ ul, li {
 
                 &.responsive {
                     display: block;
+                    z-index: 2;
                 }
             }
         }
