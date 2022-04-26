@@ -65,6 +65,7 @@ div {box-sizing: border-box;}
 
 .imageText {
   margin-top: 200px;
+  padding: 0 20px;
   position: relative;
 }
 
