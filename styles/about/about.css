@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-.Acircle {
+.Wcircle {
   float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 08px;
+  position: relative;
+  left: 1605px;
+  bottom: 97px;
+}
+
+.mobility {
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
 }
 /*# sourceMappingURL=about.css.map */
