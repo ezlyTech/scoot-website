@@ -1,0 +1,25 @@
+.herobanner {
+    background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .herobanner .herobanner__container {
+    max-width: 1110px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 72px 0;
+  }
+  
+  .herobanner .herobanner__container .herobanner__heading {
+    /* * * */
+    max-width: 500px;
+  }
+  
+  .herobanner .herobanner__container .pattern {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
