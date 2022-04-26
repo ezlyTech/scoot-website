@@ -42,6 +42,8 @@
   margin-top: 160px;
 }
 
+div {box-sizing: border-box;}
+
 .boxsteps .boxsteps__container {
   display: -webkit-box;
   display: -ms-flexbox;

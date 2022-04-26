@@ -23,3 +23,48 @@
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
+
+  /* WHY JOIN US SECTION CSS */
+
+  #WhyJoinUsSection {
+    margin: 100px auto;
+    max-width: 1150px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  #WhyJoinUsSectionThreeBoxes {display: flex; flex-direction: row;}
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {width: 33.333%; padding: 20px;}
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxNumber span {
+  display: inline-block;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  background-color: #fcb72b;
+  margin-top: -35px;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxDesc {color: #939CAA !important;}
+
+@media only screen and (max-width: 876px) {
+  #WhyJoinUsSectionThreeBoxes {display: block;}
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {width: 100%; max-width: 500px; margin: auto;}
+}
+
+@media only screen and (max-width: 360px) {
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {max-width: 100%; height: 100%;}
+}
