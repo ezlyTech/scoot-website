@@ -59,7 +59,7 @@ p {
 
 .better {
   width: 1000px;
-  height: 700px;
+  height: 500px;
 }
 
 .Text2 {
@@ -97,5 +97,21 @@ p {
   float: left;
   right: 300px;
   bottom: 1000px;
+}
+
+.ValueRow {
+  height: 1000px;
+}
+
+.ValueColumn {
+  text-align: center;
+  float: left;
+  width: 20.5%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.Acard {
+  margin: 8px;
 }
 /*# sourceMappingURL=about.css.map */
