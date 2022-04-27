@@ -1,0 +1,286 @@
+// HEROBANNER
+.herobanner {
+    background-image: url('../../assets/images/careers-locations-hero-desktop.jpg');
+    background-size: cover;
+    position: relative;
+
+    .herobanner__container {
+        max-width: 1110px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 72px 0;
+
+
+        .herobanner__heading {
+            /* * * */
+            max-width: 500px;
+        }
+
+        .pattern {
+            position: absolute;
+            right: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+
+
+
+// MAP
+.map-desktop {
+    margin-top: 120px;
+
+    .map__container {
+
+        .map__image {
+            position: relative;
+        }
+
+        .map__texts {
+
+            .newyork {
+                position: absolute;
+                top: 10%;
+                left: 12%;
+
+                h4 {
+                    background-color: #FCB72B;
+                    padding: 22px 40px;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -43%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 0;
+                        height: 16px;
+                        border-left: 20px solid transparent;
+                        border-right: 20px solid transparent;
+                        border-top: 20px solid #FCB72B;
+                    }
+                }
+            }
+
+            .london {
+                position: absolute;
+                top: -2%;
+                left: 36%;
+
+                h4 {
+                    background-color: #FCB72B;
+                    padding: 22px 40px;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -43%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 0;
+                        height: 16px;
+                        border-left: 20px solid transparent;
+                        border-right: 20px solid transparent;
+                        border-top: 20px solid #FCB72B;
+                    }
+                }
+            }
+
+            .yokohama {
+                position: absolute;
+                top: 5%;
+                right: 5%;
+
+                h4 {
+                    background-color: #FCB72B;
+                    padding: 22px 40px;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -43%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 0;
+                        height: 16px;
+                        border-left: 20px solid transparent;
+                        border-right: 20px solid transparent;
+                        border-top: 20px solid #FCB72B;
+                    }
+                }
+            }
+
+            .jakarta {
+                position: absolute;
+                top: 36%;
+                right: 10%;
+
+                h4 {
+                    background-color: #FCB72B;
+                    padding: 22px 40px;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -43%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 0;
+                        height: 16px;
+                        border-left: 20px solid transparent;
+                        border-right: 20px solid transparent;
+                        border-top: 20px solid #FCB72B;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.map-mobile {
+    display: none;
+}
+
+
+
+
+
+// TEXT + CTA
+.cta {
+    margin-top: 120px;
+
+    .cta__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .heading {
+            max-width: 351px;
+        }
+
+        .text {
+            max-width: 445px;
+        }
+
+        .button {
+            width: auto;
+        }
+    }
+}
+
+
+
+
+/*
+ * MEDIA QUERIES
+ */
+
+
+// HEROBANNER
+@media only screen and (max-width: 768px) {
+    .herobanner {
+    
+        .herobanner__container {
+    
+    
+            .herobanner__heading {
+                /* * * */
+                max-width: 100%;
+                text-align: center;
+            }
+    
+            .pattern {
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+// MAP
+@media only screen and (max-width: 768px) {
+    .map-desktop {
+
+        display: none;
+    }
+
+    .map-mobile {
+        display: block;
+        margin-top: 72px;
+
+        .map__container {
+            padding: 0 32px;
+
+            .map__image {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .map__locations {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                align-items: center;
+                width: 100%;
+                margin-top: 40px;
+
+                .location {
+                    width: 100%;
+
+                    h4 {
+                        background: rgba(252, 183, 43, 0.15);
+                        padding-top: 22px;
+                        padding-bottom: 22px;
+                        width: 100%;
+                        text-align: center;
+                        margin: 0;
+                    }
+                } 
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// TEXT + CTA
+@media only screen and (max-width: 768px) {
+    .cta {
+        margin-top: 120px;
+    
+        .cta__container {
+            flex-direction: column;
+            padding: 0 32px;
+            text-align: center;
+    
+    
+            .heading {
+                max-width: 100%;
+            }
+    
+            .text {
+                max-width: 100%;
+            }
+    
+            .button {
+                margin-top: 32px;
+            }
+        }
+    }
+}

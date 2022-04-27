@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .section {
   max-width: 1110px;
   margin: 0 auto;
@@ -21,6 +25,10 @@ h1 {
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #495567;
+}
+
+h1.white {
+  color: #FFFFFF;
 }
 
 h2 {
@@ -144,11 +152,19 @@ ul, li {
   color: #939CAA;
 }
 
+.header .header__container .header-links__wrapper .header__icon {
+  display: none;
+}
+
 /*
  * FOOTER:
  * This can be use to the whole website
  *
  */
+.footer {
+  margin-top: 120px;
+}
+
 .footer .footer__container {
   background-color: #495567;
   padding: 102px 0;
@@ -246,5 +262,112 @@ ul, li {
       -ms-flex-align: center;
           align-items: center;
   gap: 24px;
+}
+
+/*
+ * MEDIA QUERIES
+ */
+@media only screen and (max-width: 768px) {
+  .header .header__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .header__container .header-links__wrapper {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+  .header .header__container .header-links__wrapper .header__logo {
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-left: 35vw;
+  }
+  .header .header__container .header-links__wrapper .header__links {
+    background-color: #333A44;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 280px;
+    padding-left: 30px;
+    padding-top: 64px;
+    flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 83.7%;
+    -webkit-box-shadow: 15px 0px 50px rgba(0, 0, 0, 0.25);
+            box-shadow: 15px 0px 50px rgba(0, 0, 0, 0.25);
+    display: none;
+  }
+  .header .header__container .header-links__wrapper .header__links .header-links__items a {
+    font-size: 18px;
+  }
+  .header .header__container .header-links__wrapper .header__links.responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
+  }
+  .header .header__container .header-links__wrapper .header__icon {
+    display: block;
+    position: absolute;
+    left: 8%;
+  }
+  .header .header__container .header__cta {
+    position: absolute;
+    bottom: 10%;
+    padding-left: 30px;
+    display: none;
+  }
+  .header .header__container .header__cta.responsive {
+    display: block;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer .footer__container .footer-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 0 32px;
+  }
+  .footer .footer-socials__container {
+    padding-top: 64px;
+    padding-bottom: 88px;
+  }
+  .footer .footer-socials__container .footer-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer-socials__container .footer-links .footer-links__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer-socials__container .footer-links .footer-links__wrapper .footer-links__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer-socials__container .footer-links .footer-socials {
+    margin-top: 45px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

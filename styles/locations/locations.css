@@ -1,0 +1,252 @@
+.herobanner {
+  background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.herobanner .herobanner__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 72px 0;
+}
+
+.herobanner .herobanner__container .herobanner__heading {
+  /* * * */
+  max-width: 500px;
+}
+
+.herobanner .herobanner__container .pattern {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.map-desktop {
+  margin-top: 120px;
+}
+
+.map-desktop .map__container .map__image {
+  position: relative;
+}
+
+.map-desktop .map__container .map__texts .newyork {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+}
+
+.map-desktop .map__container .map__texts .newyork h4 {
+  background-color: #FCB72B;
+  padding: 22px 40px;
+  position: relative;
+}
+
+.map-desktop .map__container .map__texts .newyork h4::after {
+  content: '';
+  position: absolute;
+  bottom: -43%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 16px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #FCB72B;
+}
+
+.map-desktop .map__container .map__texts .london {
+  position: absolute;
+  top: -2%;
+  left: 36%;
+}
+
+.map-desktop .map__container .map__texts .london h4 {
+  background-color: #FCB72B;
+  padding: 22px 40px;
+  position: relative;
+}
+
+.map-desktop .map__container .map__texts .london h4::after {
+  content: '';
+  position: absolute;
+  bottom: -43%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 16px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #FCB72B;
+}
+
+.map-desktop .map__container .map__texts .yokohama {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.map-desktop .map__container .map__texts .yokohama h4 {
+  background-color: #FCB72B;
+  padding: 22px 40px;
+  position: relative;
+}
+
+.map-desktop .map__container .map__texts .yokohama h4::after {
+  content: '';
+  position: absolute;
+  bottom: -43%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 16px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #FCB72B;
+}
+
+.map-desktop .map__container .map__texts .jakarta {
+  position: absolute;
+  top: 36%;
+  right: 10%;
+}
+
+.map-desktop .map__container .map__texts .jakarta h4 {
+  background-color: #FCB72B;
+  padding: 22px 40px;
+  position: relative;
+}
+
+.map-desktop .map__container .map__texts .jakarta h4::after {
+  content: '';
+  position: absolute;
+  bottom: -43%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 16px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #FCB72B;
+}
+
+.map-mobile {
+  display: none;
+}
+
+.cta {
+  margin-top: 120px;
+}
+
+.cta .cta__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cta .cta__container .heading {
+  max-width: 351px;
+}
+
+.cta .cta__container .text {
+  max-width: 445px;
+}
+
+.cta .cta__container .button {
+  width: auto;
+}
+
+/*
+ * MEDIA QUERIES
+ */
+@media only screen and (max-width: 768px) {
+  .herobanner .herobanner__container .herobanner__heading {
+    /* * * */
+    max-width: 100%;
+    text-align: center;
+  }
+  .herobanner .herobanner__container .pattern {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .map-desktop {
+    display: none;
+  }
+  .map-mobile {
+    display: block;
+    margin-top: 72px;
+  }
+  .map-mobile .map__container {
+    padding: 0 32px;
+  }
+  .map-mobile .map__container .map__image {
+    width: 100%;
+  }
+  .map-mobile .map__container .map__image img {
+    width: 100%;
+  }
+  .map-mobile .map__container .map__locations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .map-mobile .map__container .map__locations .location {
+    width: 100%;
+  }
+  .map-mobile .map__container .map__locations .location h4 {
+    background: rgba(252, 183, 43, 0.15);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cta {
+    margin-top: 120px;
+  }
+  .cta .cta__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 32px;
+    text-align: center;
+  }
+  .cta .cta__container .heading {
+    max-width: 100%;
+  }
+  .cta .cta__container .text {
+    max-width: 100%;
+  }
+  .cta .cta__container .button {
+    margin-top: 32px;
+  }
+}
+/*# sourceMappingURL=locations.css.map */
