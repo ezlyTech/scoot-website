@@ -7,8 +7,25 @@
 }
 
 .mobility {
+  width: 1000px;
+  height: 1000px;
+}
+
+.Text1 {
   width: 500px;
   height: 500px;
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.Dera {
+  border-radius: 50%;
+}
+
+.Mpic {
+  float: left;
+  position: absolute;
+  left: 1800px;
+  bottom: 400px;
 }
 /*# sourceMappingURL=about.css.map */
