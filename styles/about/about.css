@@ -121,7 +121,7 @@ p {
 }
 
 .Apply {
-  border-style: solid;
+  background-color: #e9f1fa;
   height: 180px;
   width: 80%;
   margin: auto;
@@ -131,5 +131,9 @@ p {
   position: relative;
   margin-left: 1700px;
   bottom: 110px;
+}
+
+.Applytext {
+  margin-left: 30px;
 }
 /*# sourceMappingURL=about.css.map */
