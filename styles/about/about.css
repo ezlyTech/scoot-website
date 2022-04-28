@@ -114,4 +114,22 @@ p {
 .Acard {
   margin: 8px;
 }
+
+.Hiring {
+  height: 2000px;
+  margin: auto;
+}
+
+.Apply {
+  border-style: solid;
+  height: 180px;
+  width: 80%;
+  margin: auto;
+}
+
+.ApplyBut {
+  position: relative;
+  margin-left: 1700px;
+  bottom: 110px;
+}
 /*# sourceMappingURL=about.css.map */
