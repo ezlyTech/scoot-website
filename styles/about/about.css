@@ -129,6 +129,18 @@ p {
   width: 100%;
   height: 100%;
   cursor: pointer;
+  background: #fff;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.Question .Explain {
+  position: absolute;
+  top: 50px;
 }
 
 .Apply {
@@ -146,14 +158,5 @@ p {
 
 .Applytext {
   margin-left: 30px;
-}
-
-.HowDL {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 /*# sourceMappingURL=about.css.map */
