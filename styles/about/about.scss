@@ -181,7 +181,7 @@ p {
     display: inline-block;
   }
   
-  .dropdown-content1, .dropdown-content2 {
+  .dropdown-content{
     display: none;
     position: relative;
     background-color: #f1f1f1;
@@ -191,7 +191,7 @@ p {
     z-index: 1;
   }
   
-  .dropdown-content1 a, .dropdown-content2 a {
+  .dropdown-content1 p, .dropdown-content2 p {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
