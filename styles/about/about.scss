@@ -132,55 +132,30 @@ p {
     margin: 8px;
 }
 
-
-
-
-.Questions{
-   position: relative;
-   margin-top: 100px;
-   width: 300px;
-   height: 50px;
+.explain{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #fafafa;
 }
 
+.dropdown{
+    position: relative;
+    margin-top: 100px;
+    width: 300px;
+    height: 50px;
+}
 
-.Question input{
-    position:absolute;
+.dropdown input{
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     cursor: pointer;
-    background: #fff;
+    background: #fafafa;
     border: none;
-    outline: none;
-    box-shadow: 0 5px 20px rgba(0,0,0,0);
-    padding: 12px 20px;
-    border-radius: 10px;
-}
-
-.Question .Explain{
-    position:absolute;
-    top: 50px;
-    
-
-
-}
-
-.Apply{
-    background-color: #e9f1fa;
-    height: 180px;
-    width: 50%;
-    margin: auto;
-}
-
-.ApplyBut{
-    position: relative;
-    margin-left: 1700px;
-    bottom: 110px;
-}
-
-.Applytext{
-    margin-left: 30px;
+    box-shadow: 0 5px 20px rgba(#000000);
 }
 
 
