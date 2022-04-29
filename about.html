@@ -134,76 +134,59 @@
 </div>
 </div>
 
-    
-<div class="Hiring">
+<h1 style="text-align:center">FAQ's</h1>    
+
+<div class="Questions">
     <div class="Apply">
-         <h3 class="Applytext">General Manager</h3>
-            <p class="Applytext">Jakarta, Indonesia</p>
-            <div class="ApplyBut">
-                <button class="button">
-                <a href="/">Apply</a>
-                </button>
-            </div>    
+         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+         <div id="myDropdown" class="dropdown-content">
+            <p>Lorem Ipsum</p>
+         </div>
+    </div>
+
+        <br>
+
+   <div class="Apply">
+         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+         <div id="myDropdown" class="dropdown-content">
+            <p>Lorem Ipsum</p>
+         </div>
     </div>
 
         <br>
 
     <div class="Apply">
-        <h3 class="Applytext">UI/UX Designer</h3>
-            <p class="Applytext">Yokohama, Japan</p>
-            <div class="ApplyBut">
-                <button class="button">
-                <a href="/">Apply</a>
-                </button>
-            </div>
+         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+         <div id="myDropdown" class="dropdown-content">
+            <p>Lorem Ipsum</p>
+         </div>
+    </div>
+
+        <br>
+
+   <div class="Apply">
+         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+         <div id="myDropdown" class="dropdown-content">
+            <p>Lorem Ipsum</p>
+         </div>
     </div>
 
         <br>
 
     <div class="Apply">
-        <h3 class="Applytext">Blog Content Copywriter</h3>
-            <p class="Applytext">New York, United States</p>
-            <div class="ApplyBut">
-                <button class="button">
-                <a href="/">Apply</a>
-                </button>
-            </div>
+         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+         <div id="myDropdown" class="dropdown-content">
+            <p>Lorem Ipsum</p>
+         </div>
     </div>
 
         <br>
 
     <div class="Apply">
-        <h3 class="Applytext">Graphic Designer</h3>
-            <p class="Applytext">New York, United States</p>
-            <div class="ApplyBut">
-                <button class="button">
-                <a href="/">Apply</a>
-                </button>
-            </div>
-    </div>
-
-        <br>
-
-    <div class="Apply">
-        <h3 class="Applytext">Fleet Supervisor</h3>
-            <p class="Applytext">Jakarta, Indonesia</p>
-            <div class="ApplyBut">
-                <button class="button">
-                <a href="/">Apply</a>
-                </button>
-            </div>
-    </div>
-
-        <br>
-
-    <div class="Apply">
-        <h3 class="Applytext">UX Analyst</h3>
-            <p class="Applytext">London, United Kingdom</p>
-            <div class="ApplyBut">
-                <button class="button">
-                <a href="/">Apply</a>
-                </button>
-            </div>
+         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+         <div id="myDropdown" class="dropdown-content">
+            <p>Lorem Ipsum</p>
+         </div>
     </div>
 </div>
 
@@ -257,6 +240,27 @@
             
         </div>
     </footer>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    
+</script>
 
     
 </body>
