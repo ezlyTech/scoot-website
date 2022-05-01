@@ -60,8 +60,6 @@ p {
 .better {
   width: 1000px;
   height: 500px;
-  border-style: solid;
-  margin-bottom: 400px;
 }
 
 .Text2 {
@@ -104,18 +102,40 @@ p {
 .ValueRow1 {
   position: relative;
   height: 800px;
-  width: 100%;
-  border-style: solid;
+  width: 1500px;
 }
 
-.ValueColumn {
-  position: relative;
+.ValueColumn1 {
+  float: left;
+  position: absolute;
   text-align: center;
   height: 400px;
-  width: 400px;
-  margin-left: 20px;
+  width: 30.5%;
+  margin-left: 100px;
   margin-top: 20px;
-  padding-right: 20px;
+  z-index: 5;
+}
+
+.ValueColumn2 {
+  float: left;
+  position: absolute;
+  text-align: center;
+  height: 400px;
+  width: 30.5%;
+  margin-left: 700px;
+  margin-top: 20px;
+  z-index: 5;
+}
+
+.ValueColumn3 {
+  float: left;
+  position: absolute;
+  text-align: center;
+  height: 400px;
+  width: 30.5%;
+  margin-left: 1300px;
+  margin-top: 20px;
+  z-index: 5;
 }
 
 .Acard {
