@@ -14,7 +14,7 @@
 .Text1 {
   width: 500px;
   height: 500px;
-  margin-left: 600px;
+  margin-left: 300px;
   margin-top: 250px;
   z-index: -1;
 }
@@ -35,22 +35,22 @@
 .Arrow1 {
   float: left;
   position: relative;
-  left: 1760px;
-  bottom: 350px;
+  left: 1100px;
+  bottom: 325px;
 }
 
 .ArrowDera {
   margin-bottom: 10px;
-  height: 150px;
-  width: 800px;
+  height: 180px;
+  width: 1000px;
   z-index: 2;
 }
 
 .Mpic {
   float: left;
   position: absolute;
-  left: 1900px;
-  bottom: 400px;
+  left: 1200px;
+  bottom: 100px;
 }
 
 p {
@@ -100,15 +100,18 @@ p {
 }
 
 .ValueRow {
+  position: relative;
   height: 1000px;
+  width: 100%;
 }
 
 .ValueColumn {
-  text-align: center;
+  position: relative;
   float: left;
-  width: 20.5%;
+  text-align: center;
+  width: 400px;
+  margin-left: 40px;
   margin-bottom: 16px;
-  padding: 0 8px;
 }
 
 .Acard {
@@ -121,6 +124,7 @@ p {
   cursor: pointer;
   padding: 18px;
   width: 40%;
+  height: 100px;
   border: none;
   text-align: left;
   outline: none;
@@ -144,9 +148,20 @@ p {
   overflow: hidden;
   -webkit-transition: max-height 0.2s ease-out;
   transition: max-height 0.2s ease-out;
+  margin-left: 1000px;
 }
 
 .faq1 {
-  margin-left: 250px;
+  float: left;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+
+.faq2 {
+  float: left;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
 }
 /*# sourceMappingURL=about.css.map */
