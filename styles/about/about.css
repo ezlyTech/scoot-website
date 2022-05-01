@@ -28,22 +28,22 @@
 .Circle1 {
   float: left;
   position: absolute;
-  left: 2400px;
-  bottom: 400px;
+  left: 1750px;
+  bottom: 100px;
 }
 
 .Arrow1 {
   float: left;
   position: relative;
-  left: 1100px;
-  bottom: 325px;
+  left: 1000px;
+  bottom: 400px;
+  z-index: 2;
 }
 
 .ArrowDera {
   margin-bottom: 10px;
   height: 180px;
   width: 1000px;
-  z-index: 2;
 }
 
 .Mpic {
@@ -67,7 +67,7 @@ p {
   width: 500px;
   height: 500px;
   position: relative;
-  left: 1000px;
+  left: 700px;
   bottom: 300px;
 }
 
@@ -84,8 +84,8 @@ p {
 
 .Arrow2 {
   position: relative;
-  right: 30px;
-  bottom: 850px;
+  right: 15px;
+  bottom: 860px;
 }
 
 .ArrowBL {
@@ -95,12 +95,13 @@ p {
 .Circle2 {
   position: relative;
   float: left;
-  right: 300px;
+  right: 250px;
   bottom: 1000px;
 }
 
 .ValueRow {
   position: relative;
+  margin-left: 20px;
   height: 1000px;
   width: 100%;
 }
@@ -163,5 +164,9 @@ p {
   position: absolute;
   margin-top: 15px;
   margin-left: 300px;
+}
+
+.footer {
+  max-width: 100%;
 }
 /*# sourceMappingURL=about.css.map */
