@@ -12,7 +12,7 @@
 
 .mobility{
     width: 800px;
-    height: 1000px;
+    height: 800px;
  
 }
 
@@ -72,6 +72,8 @@ p {
 .better{
     width: 1000px;
     height: 500px;
+    border-style: solid;
+    margin-bottom: 400px;
 }
 
 .Text2{
@@ -113,11 +115,9 @@ p {
 
 
 
-.ValueRow{ 
-    text-align: center;
+.ValueRow1{ 
     position: relative;
-    margin-right: 500px;
-    height: 1900px;
+    height: 800px;
     width: 100%;
     border-style: solid;
 }
@@ -125,12 +125,12 @@ p {
 .ValueColumn{
     position: relative;
     text-align: center;
-    width: 20%;
+    height: 400px;
+    width: 400px;
     margin-left: 20px;
-    margin-top: 50px;
-    padding-right: 240px;
+    margin-top: 20px;
+    padding-right: 20px;
 }
-
 
 
 .Acard{
@@ -152,6 +152,23 @@ p {
     transition: 0.4s;
     margin-left: 1000px;
   }
+
+.goleft{
+    align-items: center;
+    margin-right: 20px;
+    border-style: solid;
+    height: 600px;
+    width: 11000px;
+
+
+}
+
+.wtf{
+    text-align: center;
+
+}
+
+
   
   .active, .accordion:hover {
     background-color: #ccc;
