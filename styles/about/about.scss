@@ -6,7 +6,7 @@
 .Wcircle {
     float: left;
     position: relative;
-    left: 1605px;
+    left: 1290px;
     bottom: 97px;
 }
 
@@ -156,14 +156,21 @@ p {
 }
 
 .Vnumbers{
-    position: absolute;
+    text-align: center;
     z-index: 6;
-    margin-left: 190px;
-    margin-top: 250px;
-    border-radius: 50%;
-    border-style: solid;
+    margin-top: 50px;
 }
 
+.Vnumbersdiv{
+    position: absolute;
+    float: left;
+    border-radius: 50%;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+    margin-left: 140px;
+    margin-top: 250px;
+}
 
 
 
