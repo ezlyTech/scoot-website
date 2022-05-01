@@ -162,10 +162,10 @@ p {
 }
 
 .Vnumbersdiv{
+    background-color: goldenrod;
     position: absolute;
     float: left;
     border-radius: 50%;
-    border-style: solid;
     height: 150px;
     width: 150px;
     margin-left: 140px;
@@ -201,21 +201,24 @@ p {
 
 .wtf{
     text-align: center;
-
 }
 
 
   
-  .active, .accordion:hover {
+  .active, .accordion:hover{
+    background-color: #ccc;
+  }
+
+  .panel:active {
     background-color: #ccc;
   }
   
   .panel {
-    width: 40%;
+    width: 38.1%;
     padding: 0 18px;
     padding-bottom: 20px;
     bottom:20px;
-    background-color: white;
+    background-color: rgb(253, 253, 253);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
