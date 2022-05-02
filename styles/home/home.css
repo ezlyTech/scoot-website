@@ -42,8 +42,6 @@
   margin-top: 160px;
 }
 
-div {box-sizing: border-box;}
-
 .boxsteps .boxsteps__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,7 +63,6 @@ div {box-sizing: border-box;}
 
 .imageText {
   margin-top: 200px;
-  padding: 0 20px;
   position: relative;
 }
 
