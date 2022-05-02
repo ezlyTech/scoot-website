@@ -1,0 +1,103 @@
+.herobanner {
+    background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .herobanner .herobanner__container {
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 72px 20px;
+  }
+  
+  .herobanner .herobanner__container .herobanner__heading {
+    /* * * */
+    max-width: 500px;
+  }
+  
+  .herobanner .herobanner__container .pattern {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+
+
+
+
+  /* WHY JOIN US SECTION CSS */
+
+  .CareersSections {
+    margin: 100px auto;
+    max-width: 1150px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .CareersSections h2 {text-align: center;}
+  #WhyJoinUsSectionThreeBoxes {display: flex; flex-direction: row; text-align: center;}
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {width: 33.333%; padding: 20px;}
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxNumber span {
+  display: inline-block;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  background-color: #fcb72b;
+  margin-top: -35px;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxDesc {color: #939CAA !important;}
+
+@media only screen and (max-width: 876px) {
+  #WhyJoinUsSectionThreeBoxes {display: block;}
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {width: 100%; max-width: 500px; margin: auto;}
+}
+
+@media only screen and (max-width: 360px) {
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {max-width: 100%; height: 100%;}
+}
+
+
+
+/* JOB OFFERS CSS */
+
+.JobOfferBoxContainer {
+  background-color: #F2F5F9;
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+.JobOfferNameAndLocation h4 {margin: 0;}
+.JobOfferNameAndLocation span {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.JobOfferBoxContainer .button {border-color: #FCB72B !important;}
+
+@media only screen and (max-width: 700px) {
+  .JobOfferBoxContainer {display: block; text-align: center;}
+  .JobOfferNameAndLocation {margin-bottom: 20px;}
+}
+
+@media only screen and (max-width: 500px) {
+  .JobOfferBoxContainer {padding: 30px 15px;}
+}
