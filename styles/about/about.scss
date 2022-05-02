@@ -189,6 +189,29 @@ p {
     margin-left: 1000px;
   }
 
+  .accordion::before{
+    content: '';
+    position:absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid goldenrod;
+    right: 180px;
+    margin-top: 25px;
+    z-index: 1000;
+    border-top: 2px rgba(0, 0, 0, .4);
+    border-right: 2px rgba(0, 0, 0, .4);
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    pointer-events: none;
+  }
+
+  .accordion.active::before{
+    border-top: 2px rgba(0, 0, 0, .4);
+    border-right: rgba(0, 0, 0, .4);  
+    transform: rotate(-225deg);
+  }
+
+
 .goleft{
     align-items: center;
     margin-right: 20px;
@@ -205,38 +228,38 @@ p {
 
 
   
-  .active, .accordion:hover{
-    background-color: #ccc;
-  }
+  
 
-  .panel:active {
-    background-color: #ccc;
-  }
+  
   
   .panel {
     width: 38.1%;
     padding: 0 18px;
     padding-bottom: 20px;
     bottom:20px;
-    background-color: rgb(253, 253, 253);
+    background-color: #eee;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     margin-left: 1000px;
   }
 
+  .panel.active::before{
+    background-color: #ccc;
+
+  }
 
 .faq1{
     float: left;
     position: absolute;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 300px;
 }
 
 .faq2{
     float: left;
     position: absolute;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 300px;
 }
 
