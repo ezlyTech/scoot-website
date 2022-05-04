@@ -2,12 +2,12 @@
 .Wcircle {
   float: left;
   position: relative;
-  left: 1290px;
+  left: 116%;
   bottom: 97px;
 }
 
 .mobility {
-  width: 800px;
+  width: 90%;
   height: 800px;
 }
 
@@ -28,14 +28,14 @@
 .Circle1 {
   float: left;
   position: absolute;
-  left: 1750px;
+  left: 95%;
   bottom: 100px;
 }
 
 .Arrow1 {
   float: left;
   position: relative;
-  left: 1000px;
+  left: 59%;
   bottom: 400px;
   z-index: 2;
 }
@@ -212,6 +212,7 @@ p {
 
 .wtf {
   text-align: center;
+  left: 50%;
 }
 
 .panel {
