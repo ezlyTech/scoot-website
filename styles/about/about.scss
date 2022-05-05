@@ -19,7 +19,7 @@
 .Text1{
     width: 500px;
     height: 500px;
-    margin-left: 300px;
+    margin-left: 20%;
     margin-top: 250px;
     z-index: -1;
 }
@@ -42,7 +42,7 @@
 .Arrow1{
     float: left;
     position: relative;
-    left: 59%;
+    left: 61%;
     bottom: 400px;
     z-index: 2  ;
 }
@@ -50,13 +50,13 @@
 .ArrowDera{
     margin-bottom: 10px;
     height: 180px;
-    width: 1000px;
+    width: 100%;
 }
 
 .Mpic{
     float: left;
     position: absolute;
-    left: 1200px;
+    left: 64%;
     bottom: 100px;
 }
 
@@ -79,14 +79,14 @@ p {
     width: 500px;
     height: 500px;
     position: relative;
-    left: 700px;
+    left: 70%;
     bottom: 300px;
 }
 
 .BPic{
     float: left;
     position: relative;
-    left:295px;
+    left:30%;
     bottom: 400px;
 }
 
@@ -96,7 +96,7 @@ p {
 
 .Arrow2{
     position: relative;
-    right: 15px;
+    right: 2%;
     bottom: 860px;
 }
 
@@ -107,7 +107,7 @@ p {
 .Circle2{
     position: relative;
     float: left;
-    right: 250px;
+    right: 28%;
     bottom: 1000px;
 }
 
@@ -125,7 +125,7 @@ p {
     text-align: center;
     height: 400px;
     width: 30.5%;
-    margin-left: 100px;
+    margin-left: 10%;
     margin-top: 20px;
     z-index: 5;
 }
@@ -136,7 +136,7 @@ p {
     text-align: center;
     height: 400px;
     width: 30.5%;
-    margin-left: 700px;
+    margin-left: 46.5%;
     margin-top: 20px;
     z-index: 5;
 }
@@ -147,7 +147,7 @@ p {
     text-align: center;
     height: 400px;
     width: 30.5%;
-    margin-left: 1300px;
+    margin-left: 84%;
     margin-top: 20px;
     z-index: 5;
 }
@@ -186,7 +186,7 @@ p {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    margin-left: 1000px;
+    margin-left: 53.7%;
   }
 
   .accordion::before{
@@ -212,24 +212,11 @@ p {
   }
 
 
-.goleft{
-    align-items: center;
-    margin-right: 20px;
-    border-style: solid;
-    height: 600px;
-    width: 11000px;
-
-
-}
 
 .wtf{
     text-align: center;
     left: 50%;
 }
-
-  
-  
-
   
   
   .panel {
@@ -241,7 +228,7 @@ p {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    margin-left: 1000px;
+    margin-left: 53.7%;
   }
 
   .panel.active::before{
@@ -253,14 +240,14 @@ p {
     float: left;
     position: absolute;
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 15%;
 }
 
 .faq2{
     float: left;
     position: absolute;
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 15%;
 }
 
 
@@ -273,3 +260,17 @@ p {
 
 
 
+
+
+@media only screen and (max-width: 620px) {
+   .mobility{
+    width: 100%;
+   }
+    
+     
+
+
+
+
+
+}
