@@ -27,14 +27,13 @@
 .Dera{
     border-radius: 50%;
     z-index: -1;
-    margin-top: 50px;
+    margin-top: 5%;
 }    
 
 .Circle1{
-    float: left;
-    position: absolute;
-    left: 95%;
-    bottom: 100px;
+    position: relative;
+    left: 52%;
+    bottom: 75%;
 
 }
 
@@ -263,9 +262,19 @@ p {
 
 
 @media only screen and (max-width: 620px) {
-   .mobility{
-    width: 100%;
-   }
+  .Mpic{
+      
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Dera{
+    max-width: 100%;
+    height: auto;
+  }
+  .Circle1{
+      z-index: -200;
+  }
     
      
 
