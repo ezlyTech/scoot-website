@@ -8,14 +8,14 @@
 
 .mobility {
   width: 90%;
-  height: 800px;
+  height: 500px;
 }
 
 .Text1 {
   width: 500px;
   height: 500px;
   margin-left: 20%;
-  margin-top: 250px;
+  margin-top: 15%;
   z-index: -1;
 }
 
@@ -27,28 +27,29 @@
 
 .Circle1 {
   position: relative;
-  left: 52%;
-  bottom: 75%;
+  left: 60%;
+  bottom: 130%;
+  z-index: 1;
 }
 
 .Arrow1 {
   float: left;
   position: relative;
-  left: 61%;
-  bottom: 400px;
+  left: 65%;
+  bottom: 80%;
   z-index: 2;
 }
 
 .ArrowDera {
   margin-bottom: 10px;
-  height: 180px;
-  width: 100%;
+  height: auto;
+  width: 110%;
 }
 
 .Mpic {
   float: left;
   position: absolute;
-  left: 64%;
+  left: 66%;
   bottom: 100px;
 }
 
@@ -241,17 +242,33 @@ p {
 
 @media only screen and (max-width: 620px) {
   .Mpic {
-    left: 50%;
-    top: 50%;
+    left: 41.5%;
+    top: 53%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
   .Dera {
-    max-width: 100%;
+    max-width: 130%;
     height: auto;
   }
+  .Arrow1 {
+    bottom: 70%;
+    left: 12%;
+    height: auto;
+  }
+  .ArrowDera {
+    width: 700px;
+    height: 160px;
+  }
   .Circle1 {
-    z-index: -200;
+    display: none;
+  }
+  .Text1 {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 90%;
+    z-index: 500;
   }
 }
 /*# sourceMappingURL=about.css.map */
