@@ -222,9 +222,16 @@ p {
   background-color: #ccc;
 }
 
-.FAQ {
+.WholeAccordion {
   position: relative;
-  top: -150%;
+  top: 20%;
+}
+
+.FAQ {
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  top: 270%;
 }
 
 .faq1 {
@@ -281,8 +288,9 @@ p {
     z-index: -1;
   }
   .BPic {
+    position: relative;
     left: 4.5%;
-    top: 53%;
+    top: 5%;
   }
   .Bliv {
     max-width: 70%;
@@ -304,12 +312,14 @@ p {
     position: relative;
     top: 195%;
     left: 2%;
-    z-index: -1;
   }
   .wtf {
     display: none;
   }
   .ValueRow1 {
+    display: none;
+  }
+  .WholeAccordion {
     display: none;
   }
 }

@@ -235,11 +235,17 @@ p {
 
   }
 
-.FAQ{
+  .WholeAccordion{
     position: relative;
-    top: -150%;
+    top: 20%;
 
+  }
 
+.FAQ{
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  top: 270%;
 }
 
 .faq1{
@@ -315,8 +321,9 @@ p {
   }
   
   .BPic{
+    position: relative;
     left: 4.5%;
-    top: 53%;
+    top: 5%;
    
   }
 
@@ -343,7 +350,7 @@ p {
     position: relative;
     top: 195%;
     left: 2%;
-    z-index: -1;
+  
 
   }
 
@@ -355,6 +362,10 @@ p {
 .ValueRow1{
   display: none;
 
+}
+
+.WholeAccordion{
+  display: none;
 }
 
 
