@@ -74,19 +74,18 @@ p {
 }
 
 .Text2{
-    float: right;
     width: 500px;
     height: 500px;
     position: relative;
-    left: 70%;
-    bottom: 300px;
+    left: 120%;
+    bottom: 100%;
 }
 
 .BPic{
     float: left;
     position: relative;
-    left:30%;
-    bottom: 400px;
+    left:25.7%;
+    bottom: 216%;
 }
 
 .Bliv{
@@ -95,8 +94,8 @@ p {
 
 .Arrow2{
     position: relative;
-    right: 2%;
-    bottom: 860px;
+    right: 50%;
+    bottom: 220%;
 }
 
 .ArrowBL{
@@ -105,9 +104,8 @@ p {
 
 .Circle2{
     position: relative;
-    float: left;
-    right: 28%;
-    bottom: 1000px;
+    right: 75%;
+    bottom: 250%
 }
 
 
@@ -125,7 +123,7 @@ p {
     height: 400px;
     width: 30.5%;
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: -25%;
     z-index: 5;
 }
 
@@ -136,7 +134,7 @@ p {
     height: 400px;
     width: 30.5%;
     margin-left: 46.5%;
-    margin-top: 20px;
+    margin-top: -25%;
     z-index: 5;
 }
 
@@ -147,7 +145,7 @@ p {
     height: 400px;
     width: 30.5%;
     margin-left: 84%;
-    margin-top: 20px;
+    margin-top: -25%;
     z-index: 5;
 }
 .Acard{
@@ -213,8 +211,10 @@ p {
 
 
 .wtf{
+    position: absolute;
     text-align: center;
-    left: 50%;
+    left: 41%;
+    top: 170%;
 }
   
   
@@ -234,6 +234,13 @@ p {
     background-color: #ccc;
 
   }
+
+.FAQ{
+    position: relative;
+    top: -150%;
+
+
+}
 
 .faq1{
     float: left;
@@ -261,6 +268,7 @@ p {
 
 
 
+
 @media only screen and (max-width: 620px) {
   .Mpic{   
     left: 41.5%;
@@ -276,7 +284,7 @@ p {
 
 
   .Arrow1{
-    bottom: 70%; 
+    bottom: -30%; 
     left: 12%;
     height: auto;
   }
@@ -300,10 +308,55 @@ p {
     text-align: center;
     max-width: 90%;
     height: auto;
-    position: relative;
-    top: 10%;
+    position: absolute;
+    bottom: -15%;
     left: -15%;
     z-index: -1;
   }
+  
+  .BPic{
+    left: 4.5%;
+    top: 53%;
+   
+  }
+
+  .Bliv{
+    max-width: 70%;
+    height: auto;
+  }
+
+  .Arrow2{
+    bottom: 10%; 
+    left: -4%;
+    height: auto;
+  }
+
+  .ArrowBL{
+    width: 40%;
+    height: auto;
+  }
+  
+  .Text2{
+    text-align: center;
+    max-width: 90%;
+    height: auto;
+    position: relative;
+    top: 195%;
+    left: 2%;
+    z-index: -1;
+
+  }
+
+
+.wtf{
+  display: none;
+}
+
+.ValueRow1{
+  display: none;
+
+}
+
+
 
 }
