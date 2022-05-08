@@ -242,10 +242,10 @@ p {
   }
 
 .FAQ{
-  position: absolute;
+  position: relative;
   text-align: center;
-  left: 45%;
-  top: 270%;
+  left: 0%;
+  top: -80%;
 }
 
 .faq1{
@@ -275,99 +275,32 @@ p {
 
 
 
-@media only screen and (max-width: 620px) {
-  .Mpic{   
-    left: 41.5%;
-    top: 53%;
-    transform: translate(-50%, -50%);
-  }
+@media only screen and (max-width: 500px) {
 
-
-  .Dera{
-    max-width: 130%;
-    height: auto;
-  }
-
-
-  .Arrow1{
-    bottom: -30%; 
-    left: 12%;
-    height: auto;
-  }
-
-  .ArrowDera{
-    width: 700px;
-    height: 160px;
-
-  }
-
-  .Circle1{
+  .Mpic{
     display: none;
-  }
-
-  .Circle2{
-    display: none;
-  }
-     
-
-  .Text1{
-    text-align: center;
-    max-width: 90%;
-    height: auto;
-    position: absolute;
-    bottom: -15%;
-    left: -15%;
-    z-index: -1;
-  }
-  
-  .BPic{
-    position: relative;
-    left: 4.5%;
-    top: 5%;
-   
   }
 
   .Bliv{
-    max-width: 70%;
-    height: auto;
+    display: none;
   }
 
-  .Arrow2{
-    bottom: 10%; 
-    left: -4%;
-    height: auto;
+
+
+  .Text1{
+    display: none;
   }
 
-  .ArrowBL{
-    width: 40%;
-    height: auto;
+
+  .Circle1, .Circle2{
+    display: none;
   }
-  
-  .Text2{
-    text-align: center;
-    max-width: 90%;
-    height: auto;
-    position: relative;
-    top: 195%;
-    left: 2%;
+
   
 
+  .Arrow1, .Arrow2{
+    display: none;
+
   }
 
-
-.wtf{
-  display: none;
-}
-
-.ValueRow1{
-  display: none;
-
-}
-
-.WholeAccordion{
-  display: none;
-}
-
-
-
-}
+} 
