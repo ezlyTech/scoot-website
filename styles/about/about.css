@@ -254,13 +254,19 @@ p {
 
 @media only screen and (max-width: 500px) {
   .Mpic {
-    display: none;
+    display: block;
+    left: 9%;
+    top: 30%;
+  }
+  .Dera {
+    width: 90%;
+    height: auto;
   }
   .Bliv {
     display: none;
   }
   .Text1 {
-    display: none;
+    display: block;
   }
   .Circle1, .Circle2 {
     display: none;
