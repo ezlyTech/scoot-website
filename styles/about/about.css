@@ -1,160 +1,116 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-.Wcircle {
-  float: left;
+.imageText {
+  margin-top: 200px;
   position: relative;
-  left: 116%;
-  bottom: 97px;
 }
 
-.mobility {
-  width: 90%;
-  height: 500px;
+.imageText .imageText__container {
+  margin: 0 auto;
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.Text1 {
-  width: 500px;
-  height: 500px;
-  margin-left: 20%;
-  margin-top: 15%;
-  z-index: -1;
+.imageText .imageText__container .text__wrapper {
+  width: 40%;
 }
 
-.Dera {
-  border-radius: 50%;
-  z-index: -1;
-  margin-top: 5%;
+.imageText .imageText__container .image__wrapper {
+  width: 40%;
 }
 
-.Circle1 {
-  position: relative;
-  left: 60%;
-  bottom: 130%;
+.imageText .imageText__container .image__wrapper .img img {
+  border-radius: 100%;
+}
+
+.imageText .imageText__container.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.imageText .pattern-arrow {
+  position: absolute;
+  right: 0;
+  bottom: -30px;
   z-index: 1;
 }
 
-.Arrow1 {
-  float: left;
-  position: relative;
-  left: 65%;
-  bottom: 80%;
-  z-index: 2;
+.imageText .pattern-arrow.reverse {
+  left: 0;
+  top: 0;
 }
 
-.ArrowDera {
-  margin-bottom: 10px;
-  height: auto;
-  width: 110%;
-}
-
-.Mpic {
-  float: left;
+.imageText .pattern-circle {
   position: absolute;
-  left: 66%;
-  bottom: 100px;
+  right: -15%;
+  top: 5%;
+  z-index: -1;
 }
 
-p {
-  font-size: 20px;
+.imageText .pattern-circle.reverse {
+  left: -15%;
 }
 
-.better {
-  width: 1000px;
-  height: 500px;
+.CareersSections {
+  margin: 100px auto;
+  max-width: 1150px;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.Text2 {
-  width: 500px;
-  height: 500px;
-  position: relative;
-  left: 120%;
-  bottom: 100%;
+.CareersSections h2 {
+  text-align: center;
 }
 
-.BPic {
-  float: left;
-  position: relative;
-  left: 25.7%;
-  bottom: 216%;
+#WhyJoinUsSectionThreeBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
 }
 
-.Bliv {
+#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {
+  width: 33.333%;
+  padding: 20px;
+}
+
+#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
 }
 
-.Arrow2 {
-  position: relative;
-  right: 50%;
-  bottom: 220%;
-}
-
-.ArrowBL {
-  width: 500px;
-}
-
-.Circle2 {
-  position: relative;
-  right: 75%;
-  bottom: 250%;
-}
-
-.ValueRow1 {
-  position: relative;
-  height: 800px;
-  width: 1500px;
-}
-
-.ValueColumn1 {
-  float: left;
-  position: absolute;
-  text-align: center;
-  height: 400px;
-  width: 30.5%;
-  margin-left: 10%;
-  margin-top: -25%;
-  z-index: 5;
-}
-
-.ValueColumn2 {
-  float: left;
-  position: absolute;
-  text-align: center;
-  height: 400px;
-  width: 30.5%;
-  margin-left: 46.5%;
-  margin-top: -25%;
-  z-index: 5;
-}
-
-.ValueColumn3 {
-  float: left;
-  position: absolute;
-  text-align: center;
-  height: 400px;
-  width: 30.5%;
-  margin-left: 84%;
-  margin-top: -25%;
-  z-index: 5;
-}
-
-.Acard {
-  margin: 8px;
-}
-
-.Vnumbers {
-  text-align: center;
-  z-index: 6;
-  margin-top: 50px;
-}
-
-.Vnumbersdiv {
-  background-color: goldenrod;
-  position: absolute;
-  float: left;
+#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxNumber span {
+  display: inline-block;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  background-color: #fcb72b;
+  margin-top: -35px;
+  padding: 25px;
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin-left: 140px;
-  margin-top: 250px;
 }
 
 .accordion {
@@ -252,26 +208,79 @@ p {
   max-width: 100%;
 }
 
-@media only screen and (max-width: 500px) {
-  .Mpic {
-    display: block;
-    left: 9%;
-    top: 30%;
-  }
-  .Dera {
-    width: 90%;
-    height: auto;
-  }
-  .Bliv {
-    display: none;
-  }
-  .Text1 {
+@media only screen and (max-width: 876px) {
+  #WhyJoinUsSectionThreeBoxes {
     display: block;
   }
-  .Circle1, .Circle2 {
-    display: none;
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
   }
-  .Arrow1, .Arrow2 {
+}
+
+@media only screen and (max-width: 360px) {
+  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .imageText .imageText__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .imageText .imageText__container .text__wrapper {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .imageText .imageText__container .text__wrapper .title,
+  .imageText .imageText__container .text__wrapper .texts,
+  .imageText .imageText__container .text__wrapper .button {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .imageText .imageText__container .text__wrapper .button {
+    margin-top: 32px;
+  }
+  .imageText .imageText__container .image__wrapper {
+    width: 100%;
+  }
+  .imageText .imageText__container .image__wrapper .img {
+    padding: 0 32px;
+  }
+  .imageText .imageText__container .image__wrapper .img img {
+    width: 100%;
+  }
+  .imageText .imageText__container.reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .imageText .pattern-arrow {
+    position: absolute;
+    right: -8%;
+    bottom: 0;
+    top: 25%;
+    z-index: 1;
+    width: 100%;
+  }
+  .imageText .pattern-arrow.reverse {
+    left: -25%;
+    top: 15%;
+  }
+  .imageText .pattern-circle {
     display: none;
   }
 }
