@@ -23,7 +23,7 @@
           width: 40%;
           
           .img {
-
+          
               img {
                   border-radius: 100%;
               }
@@ -38,9 +38,9 @@
 
   .pattern-arrow {
       position: absolute;
-      right: 0;
-      bottom: -30px;
-      z-index: 1;
+      right: 30px;
+      bottom: 30px;
+      z-index: 2;
 
       &.reverse {
           left: 0;
