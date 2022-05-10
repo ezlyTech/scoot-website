@@ -302,5 +302,9 @@ border-radius: 50%;
       justify-content: space-between;
       position: relative
     }
+
+    .accordion::before{
+      left: 310px;
+    }
   }
 }
