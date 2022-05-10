@@ -63,7 +63,7 @@
   left: -15%;
 }
 
-.CareersSections {
+.ValueSections {
   margin: 100px auto;
   max-width: 1150px;
   padding: 0 20px;
@@ -71,11 +71,11 @@
           box-sizing: border-box;
 }
 
-.CareersSections h2 {
+.ValueSections h2 {
   text-align: center;
 }
 
-#WhyJoinUsSectionThreeBoxes {
+#OurValuesSectionThreeBoxes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,12 +86,12 @@
   text-align: center;
 }
 
-#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {
+#OurValuesSectionThreeBoxes .OurValuesSectionBox {
   width: 33.333%;
   padding: 20px;
 }
 
-#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {
+#OurValuesSectionThreeBoxes .OurValuesSectionBoxImage img {
   width: 100%;
   max-width: 250px;
   height: 250px;
@@ -100,7 +100,7 @@
   border-radius: 50%;
 }
 
-#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxNumber span {
+#OurValuesSectionThreeBoxes .OurValuesSectionBoxNumber span {
   display: inline-block;
   font-family: 'Space Mono';
   font-weight: 700;

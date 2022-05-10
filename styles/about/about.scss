@@ -60,24 +60,24 @@
   }
 }
 
-.CareersSections {
+.ValueSections {
   margin: 100px auto;
   max-width: 1150px;
   padding: 0 20px;
   box-sizing: border-box;
 }
 
-.CareersSections h2 {text-align: center;}
-#WhyJoinUsSectionThreeBoxes {display: flex; flex-direction: row; text-align: center;}
-#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {width: 33.333%; padding: 20px;}
-#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {
+.ValueSections h2 {text-align: center;}
+#OurValuesSectionThreeBoxes {display: flex; flex-direction: row; text-align: center;}
+#OurValuesSectionThreeBoxes .OurValuesSectionBox {width: 33.333%; padding: 20px;}
+#OurValuesSectionThreeBoxes .OurValuesSectionBoxImage img {
   width: 100%;
   max-width: 250px;
   height: 250px;
   object-fit: cover;
   border-radius: 50%;
 }
-#WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxNumber span {
+#OurValuesSectionThreeBoxes .OurValuesSectionBoxNumber span {
 display: inline-block;
 font-family: 'Space Mono';
 font-weight: 700;
