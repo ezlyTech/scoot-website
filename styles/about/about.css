@@ -30,6 +30,7 @@
 
 .imageText .imageText__container .image__wrapper .img img {
   border-radius: 100%;
+  position: relative;
 }
 
 .imageText .imageText__container.reverse {
@@ -41,7 +42,7 @@
 
 .imageText .pattern-arrow {
   position: absolute;
-  right: 30px;
+  right: -10px;
   bottom: 30px;
   z-index: 2;
 }
@@ -53,8 +54,8 @@
 
 .imageText .pattern-circle {
   position: absolute;
-  right: -15%;
-  top: 5%;
+  right: -18%;
+  top: -2%;
   z-index: -1;
 }
 
@@ -111,6 +112,12 @@
   margin-top: -35px;
   padding: 25px;
   border-radius: 50%;
+}
+
+.Wcircle {
+  position: absolute;
+  right: -30px;
+  top: 60px;
 }
 
 .accordion {
@@ -250,9 +257,6 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .imageText .imageText__container .text__wrapper .button {
-    margin-top: 32px;
-  }
   .imageText .imageText__container .image__wrapper {
     width: 100%;
   }
@@ -282,6 +286,50 @@
   }
   .imageText .pattern-circle {
     display: none;
+  }
+  .Wcircle {
+    display: none;
+  }
+  .WholeAccordion .accordion {
+    position: relative;
+    left: -190px;
+    width: 90%;
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .WholeAccordion .panel {
+    position: relative;
+    left: -190px;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .WholeAccordion .FAQ {
+    text-align: center;
+  }
+  .WholeAccordion .faq1, .WholeAccordion .faq2 {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
   }
 }
 /*# sourceMappingURL=about.css.map */
