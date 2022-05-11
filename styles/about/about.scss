@@ -245,6 +245,8 @@ border-radius: 50%;
           }
 
           &.reverse {
+              position: relative;
+              left: 90%;
               flex-direction: column-reverse;
           }
       }
