@@ -33,11 +33,21 @@
   position: relative;
 }
 
+.imageText .imageText__container .image__wrapper .Dera {
+  left: 50%;
+}
+
 .imageText .imageText__container.reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.imageText .imageText__container.reverse img {
+  border-radius: 100%;
+  position: relative;
+  left: -25%;
 }
 
 .imageText .pattern-arrow {
@@ -216,10 +226,10 @@
 }
 
 @media only screen and (max-width: 876px) {
-  #WhyJoinUsSectionThreeBoxes {
+  #OurValuesSectionThreeBoxes {
     display: block;
   }
-  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBox {
+  #OurValuesSectionThreeBoxes .OurValuesSectionBox {
     width: 100%;
     max-width: 500px;
     margin: auto;
@@ -227,7 +237,7 @@
 }
 
 @media only screen and (max-width: 360px) {
-  #WhyJoinUsSectionThreeBoxes .WhyJoinUsSectionBoxImage img {
+  #OurValuesSectionThreeBoxes .OurValuesSectionBoxImage img {
     max-width: 100%;
     height: 100%;
   }
@@ -266,13 +276,19 @@
   .imageText .imageText__container .image__wrapper .img img {
     width: 100%;
   }
+  .imageText .imageText__container .image__wrapper .img .Dera {
+    left: -0%;
+  }
   .imageText .imageText__container.reverse {
-    position: relative;
-    left: 90%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+  .imageText .imageText__container.reverse img {
+    border-radius: 100%;
+    position: relative;
+    left: 0%;
   }
   .imageText .pattern-arrow {
     position: absolute;
