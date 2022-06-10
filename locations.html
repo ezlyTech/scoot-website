@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/header/header.css">
     <link rel="stylesheet" href="./styles/footer/footer.css">
     <link rel="stylesheet" href="./styles/locations/locations.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Scoot</title>
 </head>
 <body>
@@ -16,12 +17,12 @@
         <div class="header__container">
             <div class="header-links__wrapper">
                 <div class="header__logo">
-                    <img src="./assets/logo.svg" alt="">
+                   <a href="./index.html"><img src="./assets/logo.svg" alt=""></a> 
                 </div>
                 <div class="header__links">
-                    <li class="header-links__items"><a href="/">About</a></li>
-                    <li class="header-links__items"><a href="/">Location</a></li>
-                    <li class="header-links__items"><a href="/">Careers</a></li>
+                    <li class="header-links__items"><a href="./about.html">About</a></li>
+                    <li class="header-links__items"><a href="./locations.html">Location</a></li>
+                    <li class="header-links__items"><a href="./careers.html">Careers</a></li>
                 </div>
                 <div class="header__icon">
                     <img src="./assets/icons/hamburger.svg" alt="">
@@ -29,7 +30,7 @@
             </div>
             <div class="header__cta">
                 <button class="button">
-                    <a href="/">Get Scootin</a>
+                    <a href="#">Get Scootin</a>
                 </button>
             </div>
 
@@ -66,16 +67,16 @@
                 <img src="./assets/images/world-map-desktop.png" alt="">
 
                 <div class="map__texts">
-                    <div class="newyork">
+                    <div class="newyork" data-aos="zoom-in-up">
                         <h4>New York</h4>
                     </div>
-                    <div class="london">
+                    <div class="london" data-aos="zoom-in-up" data-aos-duration="1000">
                         <h4>London</h4>
                     </div>
-                    <div class="yokohama">
+                    <div class="yokohama" data-aos="zoom-in-up">
                         <h4>Yokohama</h4>
                     </div>
-                    <div class="jakarta">
+                    <div class="jakarta" data-aos="zoom-in-up" data-aos-duration="700">
                         <h4>Jakarta</h4>
                     </div>
                 </div>
@@ -159,25 +160,25 @@
 
                 <div class="footer-links__wrapper">
                     <div class="footer-logo">
-                        <a href="/"><img src="./assets/logo-white.svg" alt=""></a>
+                        <a href="./index.html"><img src="./assets/logo-white.svg" alt=""></a>
                     </div>
                     <div class="footer-links__item">
                         <li class="footer-links__items">
-                            <a href="/">About</a>
+                            <a href="./about.html">About</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Location</a>
+                            <a href="./locations.html">Location</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Careers</a>
+                            <a href="./careers.html">Careers</a>
                         </li>
                     </div>
                 </div>
 
                 <div class="footer-socials">
-                    <a href="/"><img src="./assets/icons/facebook.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/twitter.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/instagram.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/instagram.svg" alt=""></a>
                 </div>
                 
             </div>
@@ -189,6 +190,10 @@
 
 
     <script src="./js/header.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>

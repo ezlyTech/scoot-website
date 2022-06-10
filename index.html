@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/header/header.css">
     <link rel="stylesheet" href="./styles/home/home.css">
     <link rel="stylesheet" href="./styles/footer/footer.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Scoot</title>
 </head>
 <body>
@@ -16,12 +17,12 @@
         <div class="header__container">
             <div class="header-links__wrapper">
                 <div class="header__logo">
-                    <img src="./assets/logo.svg" alt="">
+                   <a href="./index.html"><img src="./assets/logo.svg" alt=""></a> 
                 </div>
                 <div class="header__links">
-                    <li class="header-links__items"><a href="/">About</a></li>
-                    <li class="header-links__items"><a href="/">Location</a></li>
-                    <li class="header-links__items"><a href="/">Careers</a></li>
+                    <li class="header-links__items"><a href="./about.html">About</a></li>
+                    <li class="header-links__items"><a href="./locations.html">Location</a></li>
+                    <li class="header-links__items"><a href="./careers.html">Careers</a></li>
                 </div>
                 <div class="header__icon">
                     <img src="./assets/icons/hamburger.svg" alt="">
@@ -29,7 +30,7 @@
             </div>
             <div class="header__cta">
                 <button class="button">
-                    <a href="/">Get Scootin</a>
+                    <a href="#">Get Scootin</a>
                 </button>
             </div>
 
@@ -43,7 +44,7 @@
     <!-- HEROBANNER -->
     <section class="herobanner">
 
-        <div class="herobanner__container">
+        <div class="herobanner__container" data-aos="fade-right">
             <div class="herobanner__heading">
                 <h1 class="white">Scooter sharing made simple</h1>
             </div>
@@ -51,7 +52,7 @@
                 <p>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
             </div>
             <button class="header-btn button">
-                <a href="/">Get Scootin</a>
+                <a href="#">Get Scootin</a>
             </button>
         </div>
     </section>
@@ -106,7 +107,7 @@
     <!-- IMAGE + TEXT -->
     <section class="imageText">
         <div class="imageText__container">
-            <div class="text__wrapper">
+            <div class="text__wrapper" data-aos="fade-up">
                 <div class="title">
                     <h2>Easy to use
                         riding telemetry</h2>
@@ -115,7 +116,7 @@
                     <p>The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
                 </div>
                 <button class="button">
-                    <a href="/">Learn More</a>
+                    <a href="#">Learn More</a>
                 </button>
             </div>
 
@@ -140,7 +141,7 @@
     <!-- IMAGE + TEXT (REVERSED) -->
     <section class="imageText">
         <div class="imageText__container reverse">
-            <div class="text__wrapper">
+            <div class="text__wrapper" data-aos="fade-up">
                 <div class="title">
                     <h2>Coming to a city near you</h2>
                 </div>
@@ -148,7 +149,7 @@
                     <p>Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
                 </div>
                 <button class="button">
-                    <a href="/">Learn More</a>
+                    <a href="#">Learn More</a>
                 </button>
             </div>
 
@@ -173,7 +174,7 @@
     <!-- IMAGE + TEXT -->
     <section class="imageText">
         <div class="imageText__container">
-            <div class="text__wrapper">
+            <div class="text__wrapper" data-aos="fade-up">
                 <div class="title">
                     <h2>Zero hassle payments</h2>
                 </div>
@@ -181,7 +182,7 @@
                     <p>Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
                 </div>
                 <button class="button">
-                    <a href="/">Learn More</a>
+                    <a href="#">Learn More</a>
                 </button>
             </div>
 
@@ -240,25 +241,25 @@
 
                 <div class="footer-links__wrapper">
                     <div class="footer-logo">
-                        <a href="/"><img src="./assets/logo-white.svg" alt=""></a>
+                        <a href="./index.html"><img src="./assets/logo-white.svg" alt=""></a>
                     </div>
                     <div class="footer-links__item">
                         <li class="footer-links__items">
-                            <a href="/">About</a>
+                            <a href="./about.html">About</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Location</a>
+                            <a href="./locations.html">Location</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Careers</a>
+                            <a href="./careers.html">Careers</a>
                         </li>
                     </div>
                 </div>
 
                 <div class="footer-socials">
-                    <a href="/"><img src="./assets/icons/facebook.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/twitter.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/instagram.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/instagram.svg" alt=""></a>
                 </div>
                 
             </div>
@@ -270,6 +271,10 @@
 
 
     <script src="./js/header.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>

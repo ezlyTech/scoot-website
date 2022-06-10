@@ -1,4 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.herobanner {
+  background-image: url("../../assets/images/about-hero-desktop.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.herobanner .herobanner__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 72px 0;
+}
+
+.herobanner .herobanner__container .herobanner__heading {
+  /* * * */
+  max-width: 500px;
+}
+
+.herobanner .herobanner__container .pattern {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .imageText {
   margin-top: 200px;
   position: relative;
@@ -127,7 +153,9 @@
 .Wcircle {
   position: absolute;
   right: -30px;
-  top: 60px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .accordion {
@@ -351,6 +379,17 @@
   }
   .WholeAccordion .accordion::before {
     left: 310px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .herobanner .herobanner__container .herobanner__heading {
+    /* * * */
+    max-width: 100%;
+    text-align: center;
+  }
+  .herobanner .herobanner__container .pattern {
+    display: none;
   }
 }
 /*# sourceMappingURL=about.css.map */

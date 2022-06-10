@@ -9,33 +9,11 @@
     <link rel="stylesheet" href="./styles/header/header.css">
     <link rel="stylesheet" href="./styles/footer/footer.css">
     <link rel="stylesheet" href="./styles/about/about.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Scoot</title>
 </head>
 
-<style>
-.about-hero-desktop {
-    background-image: url("./assets/images/about-hero-desktop.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    max-width: 100%;
-}
 
-@media only screen and (max-width: 768px) {
-    .about-hero-desktop {
-    background-image: url("./assets/images/about-hero-mobile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    max-width: 100%;
-    text-align: center;
-}
-
-}
-
-</style>
 
 <body>
     <!-- HEADER -->
@@ -43,41 +21,44 @@
         <div class="header__container">
             <div class="header-links__wrapper">
                 <div class="header__logo">
-                    <img src="./assets/logo.svg" alt="">
+                   <a href="./index.html"><img src="./assets/logo.svg" alt=""></a> 
                 </div>
                 <div class="header__links">
-                    <li class="header-links__items"><a href="/">About</a></li>
-                    <li class="header-links__items"><a href="/">Location</a></li>
-                    <li class="header-links__items"><a href="/">Careers</a></li>
+                    <li class="header-links__items"><a href="./about.html">About</a></li>
+                    <li class="header-links__items"><a href="./locations.html">Location</a></li>
+                    <li class="header-links__items"><a href="./careers.html">Careers</a></li>
+                </div>
+                <div class="header__icon">
+                    <img src="./assets/icons/hamburger.svg" alt="">
                 </div>
             </div>
             <div class="header__cta">
                 <button class="button">
-                    <a href="/">Get Scootin</a>
+                    <a href="#">Get Scootin</a>
                 </button>
             </div>
 
         </div>
     </header>
 
-
     <!-- HEROBANNER -->
+    <section class="herobanner">
+
+        <div class="herobanner__container">
+            <div class="herobanner__heading">
+                <h1 class="white">About</h1>
+            </div>
+            <div class="pattern">
+                <img src="./assets/patterns/white-circles.svg" alt="">
+            </div>
+        </div>
+    </section>
 
 
-
-
-<div class="about-hero-desktop">
-    <div class="section">
-        <h1 style="color: aliceblue;">About</h1> 
-        <img class="Wcircle" src="./assets/patterns/white-circles.svg" alt="">
-    </div>
-</div>
-
-<!-- CONTENT -->
 
 <section class="imageText">
     <div class="imageText__container">
-        <div class="text__wrapper">
+        <div class="text__wrapper"  data-aos="fade-up">
             <div class="title">
                 <h2>Mobility for the digital era</h2>
             </div>
@@ -102,7 +83,7 @@
 
 <section class="imageText">
     <div class="imageText__container reverse">
-        <div class="text__wrapper">
+        <div class="text__wrapper" data-aos="fade-up">
             <div class="title">
                 <h2>Better urban living</h2>
             </div>
@@ -182,7 +163,7 @@
 <h1 class="FAQ" style="text-align:center">FAQ's</h1>    
 
 <div class="WholeAccordion">
-<h2 class="faq1">How it works</h2>
+<h2 class="faq1"  data-aos="fade-right">How it works</h2>
 
 <button class="accordion"><p>How do I download the app?</p></button>
 <div class="panel">
@@ -206,7 +187,7 @@
 <br>
 <br>
 
-<h2 class="faq2">Safe driving</h2>
+<h2 class="faq2"  data-aos="fade-right">Safe driving</h2>
 
 <button class="accordion"><p>Should I wear a helmet?</p></button>
 <div class="panel">
@@ -237,16 +218,16 @@
                 <div class="footer-cta">
                     <div class="app-store">
                         <div class="icon">
-                            <a href="/"><img src="/assets/icons/app-store.svg" alt=""></a>
+                            <a href="/"><img src="./assets/icons/app-store.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="google-play">
                         <div class="icon">
-                            <a href=""><img src="/assets/icons/google-play.svg" alt=""></a>
+                            <a href=""><img src="./assets/icons/google-play.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
-                <img class="circle" src="/assets/patterns/semi-circles.svg" alt="">
+                <img class="circle" src="./assets/patterns/semi-circles.svg" alt="">
             </div>
         </div>
         <div class="footer-socials__container">
@@ -254,25 +235,25 @@
 
                 <div class="footer-links__wrapper">
                     <div class="footer-logo">
-                        <a href="/"><img src="/assets/logo-white.svg" alt=""></a>
+                        <a href="./index.html"><img src="./assets/logo-white.svg" alt=""></a>
                     </div>
                     <div class="footer-links__item">
                         <li class="footer-links__items">
-                            <a href="/">About</a>
+                            <a href="./about.html">About</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Location</a>
+                            <a href="./locations.html">Location</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Careers</a>
+                            <a href="./careers.html">Careers</a>
                         </li>
                     </div>
                 </div>
 
                 <div class="footer-socials">
-                    <a href="/"><img src="./assets/icons/facebook.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/twitter.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/instagram.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/instagram.svg" alt=""></a>
                 </div>
                 
             </div>
@@ -297,6 +278,12 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+</script>
+
+<script src="./js/header.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 
     

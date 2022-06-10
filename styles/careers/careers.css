@@ -143,4 +143,15 @@
     padding: 30px 15px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .herobanner .herobanner__container .herobanner__heading {
+    /* * * */
+    max-width: 100%;
+    text-align: center;
+  }
+  .herobanner .herobanner__container .pattern {
+    display: none;
+  }
+}
 /*# sourceMappingURL=careers.css.map */

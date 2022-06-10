@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/home/home.css">
     <link rel="stylesheet" href="./styles/footer/footer.css">
     <link rel="stylesheet" href="./styles/careers/careers.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Scoot</title>
 </head>
 <body>
@@ -17,12 +18,12 @@
         <div class="header__container">
             <div class="header-links__wrapper">
                 <div class="header__logo">
-                    <img src="./assets/logo.svg" alt="">
+                   <a href="./index.html"><img src="./assets/logo.svg" alt=""></a> 
                 </div>
                 <div class="header__links">
-                    <li class="header-links__items"><a href="/">About</a></li>
-                    <li class="header-links__items"><a href="/">Location</a></li>
-                    <li class="header-links__items"><a href="/">Careers</a></li>
+                    <li class="header-links__items"><a href="./about.html">About</a></li>
+                    <li class="header-links__items"><a href="./locations.html">Location</a></li>
+                    <li class="header-links__items"><a href="./careers.html">Careers</a></li>
                 </div>
                 <div class="header__icon">
                     <img src="./assets/icons/hamburger.svg" alt="">
@@ -30,7 +31,7 @@
             </div>
             <div class="header__cta">
                 <button class="button">
-                    <a href="/">Get Scootin</a>
+                    <a href="#">Get Scootin</a>
                 </button>
             </div>
 
@@ -58,7 +59,7 @@
     <!-- IMAGE + TEXT -->
     <section class="imageText">
         <div class="imageText__container">
-            <div class="text__wrapper">
+            <div class="text__wrapper" data-aos="fade-up">
                 <div class="title">
                     <h2>Care to join our mission?</h2>
                 </div>
@@ -143,7 +144,7 @@
     <!-- JOB OFFERES -->
     <section class="CareersSections">
         <div>
-            <div class="JobOfferBoxContainer">
+            <div class="JobOfferBoxContainer" data-aos="fade-up">
                 <div class="JobOfferNameAndLocation">
                     <h4>General Manager</h4>
                     <span>Jakarta, Indonesia</span>
@@ -151,7 +152,7 @@
                 <div><button class="button"><a href="/">Apply</a></button></div>
             </div>
 
-            <div class="JobOfferBoxContainer">
+            <div class="JobOfferBoxContainer" data-aos="fade-up">
                 <div class="JobOfferNameAndLocation">
                     <h4>UI/UX Designer</h4>
                     <span>Yokohama, Japan</span>
@@ -159,7 +160,7 @@
                 <div><button class="button"><a href="/">Apply</a></button></div>
             </div>
 
-            <div class="JobOfferBoxContainer">
+            <div class="JobOfferBoxContainer" data-aos="fade-up">
                 <div class="JobOfferNameAndLocation">
                     <h4>Blog Content Copywriter</h4>
                     <span>New York, United States</span>
@@ -167,7 +168,7 @@
                 <div><button class="button"><a href="/">Apply</a></button></div>
             </div>
 
-            <div class="JobOfferBoxContainer">
+            <div class="JobOfferBoxContainer" data-aos="fade-up">
                 <div class="JobOfferNameAndLocation">
                     <h4>Graphic Designer</h4>
                     <span>New York, United States</span>
@@ -175,7 +176,7 @@
                 <div><button class="button"><a href="/">Apply</a></button></div>
             </div>
 
-            <div class="JobOfferBoxContainer">
+            <div class="JobOfferBoxContainer" data-aos="fade-up">
                 <div class="JobOfferNameAndLocation">
                     <h4>Fleet Supervisor</h4>
                     <span>Jakarta, Indonesia</span>
@@ -183,7 +184,7 @@
                 <div><button class="button"><a href="/">Apply</a></button></div>
             </div>
 
-            <div class="JobOfferBoxContainer">
+            <div class="JobOfferBoxContainer" data-aos="fade-up">
                 <div class="JobOfferNameAndLocation">
                     <h4>UX Analyst</h4>
                     <span>London, United Kingdom</span>
@@ -226,25 +227,25 @@
 
                 <div class="footer-links__wrapper">
                     <div class="footer-logo">
-                        <a href="/"><img src="./assets/logo-white.svg" alt=""></a>
+                        <a href="./index.html"><img src="./assets/logo-white.svg" alt=""></a>
                     </div>
                     <div class="footer-links__item">
                         <li class="footer-links__items">
-                            <a href="/">About</a>
+                            <a href="./about.html">About</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Location</a>
+                            <a href="./locations.html">Location</a>
                         </li>
                         <li class="footer-links__items">
-                            <a href="/">Careers</a>
+                            <a href="./careers.html">Careers</a>
                         </li>
                     </div>
                 </div>
 
                 <div class="footer-socials">
-                    <a href="/"><img src="./assets/icons/facebook.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/twitter.svg" alt=""></a>
-                    <a href="/"><img src="./assets/icons/instagram.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/instagram.svg" alt=""></a>
                 </div>
                 
             </div>
@@ -256,6 +257,10 @@
 
 
     <script src="./js/header.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>

@@ -101,3 +101,23 @@
 @media only screen and (max-width: 500px) {
   .JobOfferBoxContainer {padding: 30px 15px;}
 }
+
+// HEROBANNER
+@media only screen and (max-width: 768px) {
+  .herobanner {
+  
+      .herobanner__container {
+  
+  
+          .herobanner__heading {
+              /* * * */
+              max-width: 100%;
+              text-align: center;
+          }
+  
+          .pattern {
+              display: none;
+          }
+      }
+  }
+}
