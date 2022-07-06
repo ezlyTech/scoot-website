@@ -241,7 +241,12 @@ border-radius: 50%;
 
 @media only screen and (max-width: 876px) {
   #OurValuesSectionThreeBoxes {display: block;}
-  #OurValuesSectionThreeBoxes .OurValuesSectionBox {width: 100%; max-width: 500px; margin: auto;}
+  #OurValuesSectionThreeBoxes .OurValuesSectionBox {
+    width: 100%; 
+    max-width: 500px; 
+    margin: auto; 
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 360px) {
