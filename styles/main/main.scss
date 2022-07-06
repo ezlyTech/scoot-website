@@ -13,6 +13,7 @@ body {
 
 html,body{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .section {
@@ -156,6 +157,7 @@ ul, li {
  *
  */
  .header {
+    background-color: white;
 
     .header__container {
         display: flex;
@@ -391,4 +393,19 @@ ul, li {
 
 
     }
+}
+
+
+
+header.stickyHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.06);
+    z-index: 10;
+}
+
+header.stickyHeader + .herobanner {
+    margin-top: 99px;
 }

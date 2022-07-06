@@ -9,6 +9,16 @@
 //     }
 // }
 
+// Sticky Header
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 20){  
+        $("header").addClass("stickyHeader");
+        }
+        else{
+        $("header").removeClass("stickyHeader");
+        }
+})
+
 
 function navMenu() {
     const navs = document.querySelectorAll('.header__links');
