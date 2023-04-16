@@ -1,4 +1,18 @@
-.sample {
-  background-color: red;
+.facts {
+  background-color: green;
+  padding: 10px;
+  color: black;
+}
+
+.facts .facts__container .facts__headings h3 {
+  color: #a4504a;
+}
+
+.facts .facts__container .facts__contents .first {
+  font-size: 10px;
+}
+
+.facts .facts__container .facts__contents .second {
+  font-size: 8px;
 }
 /*# sourceMappingURL=sample.css.map */
