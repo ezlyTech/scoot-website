@@ -3,16 +3,12 @@
   padding: 10px;
   color: black;
 }
-
 .facts .facts__container .facts__headings h3 {
-  color: #a4504a;
+  color: rgb(164, 80, 74);
 }
-
 .facts .facts__container .facts__contents .first {
   font-size: 10px;
 }
-
 .facts .facts__container .facts__contents .second {
   font-size: 8px;
-}
-/*# sourceMappingURL=sample.css.map */
+}/*# sourceMappingURL=sample.css.map */
