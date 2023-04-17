@@ -305,7 +305,7 @@ border-radius: 50%;
   
       .pattern-arrow {
           position: absolute;
-          right: -8%;
+          right: -20%;
           bottom: 0;
           top: 25%;
           z-index: 1;
@@ -330,7 +330,7 @@ border-radius: 50%;
     .accordion{
       position: relative;
       left: -190px;
-      width: 90%;
+      width: 69%;
       display: block;
       justify-content: space-between;
       flex-direction: column-reverse;
@@ -339,7 +339,7 @@ border-radius: 50%;
     .panel{
       position: relative;
       left: -190px;
-      width: 80%;
+      width: 64.8%;
       display: flex;
       justify-content: space-between;
       flex-direction: column-reverse;
@@ -357,7 +357,7 @@ border-radius: 50%;
     }
 
     .accordion::before{
-      left: 310px;
+      left: 450px;
     }
   }
 }
