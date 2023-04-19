@@ -47,7 +47,7 @@ h3 {
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -1.78571px;
-  color: red;
+  color: black;
 }
 
 h4 {
@@ -113,7 +113,6 @@ ul, li {
  */
 .header {
   background-color: white;
-  z-index: 9999;
 }
 .header .header__container {
   display: flex;
@@ -225,11 +224,11 @@ ul, li {
     position: relative;
     width: 100%;
     background-color: #FFFFFF;
-    padding-left: 40vw;
+    padding-left: 35vw;
   }
   .header .header__container .header-links__wrapper .header__links {
     background-color: #333A44;
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 73px;
     flex-direction: column;
@@ -255,7 +254,7 @@ ul, li {
     left: 8%;
   }
   .header .header__container .header__cta {
-    position: fixed;
+    position: absolute;
     bottom: 10%;
     padding-left: 30px;
     display: none;
