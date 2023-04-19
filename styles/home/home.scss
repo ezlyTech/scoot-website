@@ -19,11 +19,40 @@
             /* * * */
             max-width: 500px;
             margin-bottom: 40px;
-
-            p {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            p { 
                 color: #ffff;
+                margin-left: 100px;
+                width: 100%;
+                }
+            
+            .beforedescription__arrow{
+                transform: rotate(180deg);
+                position: absolute;
+                top: 37%;
+                left: -37%
+                }
+
+            .afterdescription__arrow{
+                position: absolute;
+                // margin-top: -75px;
+                margin-bottom: 0px;
+                margin-left: 550px;
+                margin-top: 130px;
             }
+
+            .afterdescription__arrow .pattern{
+                position: absolute;
+                margin: 0px;
+                left: 125%;
+                top: 50%;
+            }
+
+
         }
+
 
         .button {
             /* * * */
@@ -39,13 +68,24 @@
             }
         }
     }
+
 }
-
-
 
 // 3 BOX-STEPS
 .boxsteps {
     margin-top: 160px;
+
+    hr{
+        border: none;
+        background-color: rgb(147, 156, 170, 0.3); 
+        width: 68%;
+        height: 15px;
+        margin-top: 0px;
+        position: absolute;
+        margin-top: 40px;
+        z-index: -1;
+        right: 36.5%;
+    }
 
     .boxsteps__container {
         display: flex;
@@ -53,6 +93,7 @@
         gap: 30px;
         align-items: flex-start;
         justify-content: center;
+
 
         .boxsteps__box {
             max-width: 350px;
