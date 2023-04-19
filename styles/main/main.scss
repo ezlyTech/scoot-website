@@ -160,7 +160,7 @@ ul, li {
  */
  .header {
     background-color: white;
-
+    z-index: 9999;
     .header__container {
         display: flex;
         justify-content: space-between;
@@ -301,12 +301,12 @@ ul, li {
                     position: relative;
                     width: 100%;
                     background-color: #FFFFFF;
-                    padding-left: 35vw;
+                    padding-left: 40vw;
                 }
 
                 .header__links {
                     background-color: #333A44;
-                    position: absolute;
+                    position: fixed;
                     left: 0;
                     top: 73px;
                     flex-direction: column;
@@ -339,7 +339,7 @@ ul, li {
             }
 
             .header__cta {
-                position: absolute;
+                position: fixed;
                 bottom: 10%;
                 padding-left: 30px;
                 display: none;
