@@ -16,9 +16,32 @@
   /* * * */
   max-width: 500px;
   margin-bottom: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 .herobanner .herobanner__container .herobanner__description p {
   color: white;
+  margin-left: 100px;
+  width: 100%;
+}
+.herobanner .herobanner__container .herobanner__description .beforedescription__arrow {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 37%;
+  left: -37%;
+}
+.herobanner .herobanner__container .herobanner__description .afterdescription__arrow {
+  position: absolute;
+  margin-bottom: 0px;
+  margin-left: 550px;
+  margin-top: 130px;
+}
+.herobanner .herobanner__container .herobanner__description .afterdescription__arrow .pattern {
+  position: absolute;
+  margin: 0px;
+  left: 125%;
+  top: 50%;
 }
 .herobanner .herobanner__container .button {
   /* * * */
@@ -33,6 +56,17 @@
 
 .boxsteps {
   margin-top: 160px;
+}
+.boxsteps hr {
+  border: none;
+  background-color: rgba(147, 156, 170, 0.3);
+  width: 68%;
+  height: 15px;
+  margin-top: 0px;
+  position: absolute;
+  margin-top: 40px;
+  z-index: -1;
+  right: 36.5%;
 }
 .boxsteps .boxsteps__container {
   display: flex;
