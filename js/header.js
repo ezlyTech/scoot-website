@@ -30,3 +30,4 @@ function navMenu() {
   
 document.querySelector('.header__icon')
         .addEventListener('click', navMenu);
+        
