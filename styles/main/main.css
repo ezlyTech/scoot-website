@@ -267,16 +267,22 @@ form{
 
 form input{
   font-size: 15px;
-  width: 50%;
+  width: 250px;
   height: 25px;
   padding: 0 20px;
+  transition: 0.5s;
+  outline: none;
+}
+
+form input:focus{
+  border: solid #FCB72B;
 }
 
 form button{
   font-family: 'Space Mono';
   font-weight: 700;
   margin-top: 10px;
-  width: 30%;
+  width: 150px;
   height: 35px;
   background-color: #FCB72B;
   color: white;
@@ -538,6 +544,13 @@ header.stickyHeader + .herobanner {
 	}
 }
 @media screen and (max-width:799px){
-  .custom-model-inner{margin-top: 45px;}
+  .custom-model-inner{
+    margin-top: 45px;
+  }
+  
+  .pop-up-content-wrap h4{
+    font-size: 20px;
+  }
+
 }
 /*# sourceMappingURL=main.css.map */
