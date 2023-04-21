@@ -57,7 +57,7 @@
 .boxsteps hr {
   border: none;
   background-color: rgb(232, 236, 244);
-  width: 68%;
+  width: 70%;
   height: 15px;
   margin-top: 0px;
   position: absolute;
@@ -133,8 +133,26 @@
   .herobanner .herobanner__container .herobanner__description {
     max-width: 100%;
   }
+  .herobanner .herobanner__container .herobanner__heading p,
+  .herobanner .herobanner__container .herobanner__description p {
+    margin-right: 12%;
+    align-items: center;
+  }
+  .herobanner .herobanner__container .herobanner__heading .beforedescription__arrow,
+  .herobanner .herobanner__container .herobanner__description .beforedescription__arrow {
+    z-index: -1;
+    right: 90%;
+  }
+  .herobanner .herobanner__container .herobanner__heading .afterdescription__arrow,
+  .herobanner .herobanner__container .herobanner__description .afterdescription__arrow {
+    z-index: -1;
+    left: 20%;
+  }
 }
 @media only screen and (max-width: 768px) {
+  .boxsteps hr {
+    right: auto;
+  }
   .boxsteps .boxsteps__container .boxsteps__box {
     text-align: center;
   }

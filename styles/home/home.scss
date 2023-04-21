@@ -73,7 +73,7 @@
     hr{
         border: none;
         background-color: rgb(232, 236, 244); 
-        width: 68%;
+        width: 70%;
         height: 15px;
         margin-top: 0px;
         position: absolute;
@@ -192,6 +192,21 @@
             .herobanner__heading,
             .herobanner__description {
                 max-width: 100%;
+                p{
+                    margin-right: 12%;
+                    align-items: center;
+                }
+
+
+                .beforedescription__arrow{
+                    z-index: -1;
+                    right: 90%;
+                }
+
+                .afterdescription__arrow{
+                    z-index: -1;
+                    left: 20%;
+                }
             }
         }
     }
@@ -206,6 +221,9 @@
 // 3 BOX-STEPS
 @media only screen and (max-width: 768px) {
     .boxsteps {
+        hr{ 
+            right: auto;
+        }
 
         .boxsteps__container {
     
