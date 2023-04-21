@@ -106,41 +106,6 @@ ul, li {
   color: #FCB72B;
 }
 
-/*
- * HEADER:
- * This can be use to the whole website
- *
- */
-.header {
-  background-color: white;
-  z-index: 9999;
-}
-.header .header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header .header__container .header-links__wrapper {
-  display: flex;
-  gap: 59px;
-  align-items: center;
-}
-.header .header__container .header-links__wrapper .header__links {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-.header .header__container .header-links__wrapper .header__links li a {
-  font-family: "Space Mono";
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 25px;
-  color: #939CAA;
-}
-.header .header__container .header-links__wrapper .header__icon {
-  display: none;
-}
-
 .custom-model-main {
   text-align: center;
   overflow: hidden;
@@ -159,7 +124,6 @@ ul, li {
   overflow-x: hidden;
   overflow-y: auto;
 }
-
 .model-open {
   z-index: 99999;
   opacity: 1;
@@ -177,7 +141,7 @@ ul, li {
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
   display: inline-block;
   vertical-align: middle;
-  width: 600px;
+  width: 580px;
   margin: 30px auto;
   max-width: 97%;
 }
@@ -236,7 +200,6 @@ ul, li {
   font-size: 30px;
   color: #fff;
 }
-
 form{
   margin-top: 30px;
   display: flex;
@@ -246,16 +209,22 @@ form{
 
 form input{
   font-size: 15px;
-  width: 50%;
+  width: 250px;
   height: 25px;
   padding: 0 20px;
+  transition: 0.5s;
+  outline: none;
+}
+
+form input:focus{
+  border: solid #FCB72B;
 }
 
 form button{
   font-family: 'Space Mono';
   font-weight: 700;
   margin-top: 10px;
-  width: 30%;
+  width: 150px;
   height: 35px;
   background-color: #FCB72B;
   color: white;
@@ -275,6 +244,41 @@ form button:hover{
 
 .pop-up-content-wrap h4{
   text-align: center;
+}
+
+/*
+ * HEADER:
+ * This can be use to the whole website
+ *
+ */
+.header {
+  background-color: white;
+  z-index: 9999;
+}
+.header .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__container .header-links__wrapper {
+  display: flex;
+  gap: 59px;
+  align-items: center;
+}
+.header .header__container .header-links__wrapper .header__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header .header__container .header-links__wrapper .header__links li a {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+.header .header__container .header-links__wrapper .header__icon {
+  display: none;
 }
 
 /*
@@ -448,6 +452,21 @@ header.stickyHeader + .herobanner {
 	}
 }
 @media screen and (max-width:799px){
-  .custom-model-inner{margin-top: 45px;}
-}
+  .custom-model-inner{
+    margin-top: 45px;
+    width: 450px;
+  }
 
+  .pop-up-content-wrap h4{
+    font-size: 20px;
+  }
+
+  .custom-model-wrap{
+    height: auto;
+  }
+
+  form button{
+    margin-bottom: 15px;
+  }
+
+}

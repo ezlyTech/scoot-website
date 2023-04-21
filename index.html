@@ -36,28 +36,30 @@
         </div>
         <div class="header__cta">
           <button class="button Click-here">
-            <a href="#">Get Scootin</a>
+            <a>Get Scootin</a>
           </button>
         </div>
       </div>
-      <div class="custom-model-main">
-        <div class="custom-model-inner">        
-        <div class="close-btn">×</div>
-            <div class="custom-model-wrap">
-                <div class="pop-up-content-wrap">
-                  <h4>Subscribe to our News Letter!</h3> 
-                  <form>
-                      <input type="text" placeholder="Name"><br>
-                      <input type="email" placeholder="Email"><br>
-                      <button>Submit</button>
-                  </form>
-                </div>
-            </div>  
-        </div>  
-        <div class="bg-overlay"></div>
-    </div>
     </header>
-     
+
+    <!-- POP UP -->
+    <div class="custom-model-main">
+      <div class="custom-model-inner">
+        <div class="close-btn">×</div>
+        <div class="custom-model-wrap">
+          <div class="pop-up-content-wrap">
+            <h4>Subscribe to our News Letter!</h4>
+            <form>
+              <input type="text" placeholder="Name" /><br />
+              <input type="email" placeholder="Email" /><br />
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bg-overlay"></div>
+    </div>
+
     <!-- HEROBANNER -->
     <section class="herobanner">
       <div class="herobanner__container" data-aos="fade-right">
@@ -70,15 +72,25 @@
             in convenient locations in each of our cities. Use our app to locate
             the nearest bike, unlock it with a tap, and you’re away!
           </p>
+          <div class="beforedescription__arrow">
+            <img src="./assets/patterns/right-arrow.svg" />
+          </div>
+          <div class="afterdescription__arrow">
+            <img src="./assets/patterns/right-arrow.svg" />
+            <div class="pattern_whitecircle">
+              <img src="./assets/patterns/white-circles.svg" />
+            </div>
+          </div>
         </div>
         <button class="header-btn button Click-here">
-          <a href="#">Get Scootin</a>
+          <a>Get Scootin</a>
         </button>
       </div>
     </section>
 
     <!-- 3 BOX-STEPS -->
     <section class="boxsteps section">
+      <hr />
       <div class="boxsteps__container">
         <div class="boxsteps__box">
           <div class="box__img">
@@ -304,6 +316,7 @@
     <script src="./js/header.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/accordion-about.js"></script>
+    <script src="./js/popup.js"></script>
     <script>
       AOS.init();
     </script>
