@@ -37,14 +37,11 @@
   margin-left: 550px;
   margin-top: 130px;
 }
-.herobanner .herobanner__container .herobanner__description .afterdescription__arrow .pattern_whitecircle {
+.herobanner .herobanner__container .herobanner__description .afterdescription__arrow .pattern__whitecircle {
   position: absolute;
   margin: 0px;
   left: 125%;
   top: 50%;
-}
-.herobanner .herobanner__container .button {
-  /* * * */
 }
 .herobanner .herobanner__container .header-btn {
   /* * * */
