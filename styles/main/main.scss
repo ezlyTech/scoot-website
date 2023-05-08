@@ -290,7 +290,7 @@ ul, li {
 // HEADER
 @media only screen and (max-width: 768px) {
     .header {
-
+    z-index: 99999;
         .header__container {
             flex-direction: column;
             align-items: flex-start;
